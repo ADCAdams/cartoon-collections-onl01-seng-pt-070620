@@ -17,8 +17,7 @@ def find_the_cheese(array)
 
   array.find do |new|
   cheese_types.include?(new)
-    found = true
-    return new 
+
   end
 
 
