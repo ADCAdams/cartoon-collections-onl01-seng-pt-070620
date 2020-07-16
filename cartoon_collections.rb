@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(calls)
   calls.map! {|names| names.capitalize! << "!"}
-  end
+  
   return calls
 end
 
