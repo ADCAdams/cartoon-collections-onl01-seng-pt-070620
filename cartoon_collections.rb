@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(wordArray)
   wordArray.any? { |word| word.length > 4 }
-  end
+  
 end 
 
 def find_the_cheese(array)
